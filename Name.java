@@ -7,6 +7,6 @@ Scanner myobj=new Scanner(System.in);
 System.out.println("enter username");
 String username;
 username=myobj.nextLine();
-System.out.println("username is "+username);
+System.out.println("username"+username);
 }
 }
