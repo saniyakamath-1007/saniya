@@ -1,11 +1,14 @@
-class Name
+class OddNumber
 {
 public static void main(String args[])
 {
-Scanner myobj=new Scanner(System.in);
-System.out.println("saniya");
-String username;
-username=myobj.nextLine();
-System.out.println("username"+username);
+System.out.println("The Odd Numbers are:");
+for (int i = 1; i <= 100; i++)
+{
+if (i % 2 != 0) 
+{
+System.out.print(i + " ");
+}
+}
 }
 }
